@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{8abf84a7-8396-4030-a988-aa92a687e6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{3a551f0d-5962-43df-8180-80cc9990daf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Time_Manager">
+      <UniqueIdentifier>{74532d6e-7829-4896-ae54-caafa8a0ae3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object">
+      <UniqueIdentifier>{ce80e537-8800-4283-93bb-033c24824c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Manager">
+      <UniqueIdentifier>{6cf4901a-d34b-4d2a-915a-a530fc8e3a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Texture">
+      <UniqueIdentifier>{5bcc07f0-eb35-4baf-937a-738d98b5409f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Texture\Manager">
+      <UniqueIdentifier>{24735829-0010-418a-8692-8f39f681c248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Texture\Single_Texture">
+      <UniqueIdentifier>{426bdd27-1856-4e54-85f8-f3d531e4aab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Texture\Multi_Texture">
+      <UniqueIdentifier>{fb47b989-3d93-49c7-86b2-7d7ebf6b9723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene">
+      <UniqueIdentifier>{8507c971-d49f-424e-aab7-ed39d8002c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\Manager">
+      <UniqueIdentifier>{72052542-a8a6-4f74-8ef3-9f46c9d3e61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\Stage">
+      <UniqueIdentifier>{ff6d2fa9-abed-4ab2-ace6-0ed2727f1dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scroll_Manager">
+      <UniqueIdentifier>{85b5d8f8-f8c1-4831-9e70-cb8af680dc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Graphic_Device">
+      <UniqueIdentifier>{aff00ccf-d6d1-462c-8eba-fdb7cd81b1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Frame_Manager">
+      <UniqueIdentifier>{87eb8129-978b-44b1-8a31-d3263105d082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Tile">
+      <UniqueIdentifier>{1d23cba0-265e-4e69-8051-8cf46feef51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\MapObj">
+      <UniqueIdentifier>{c5f202d9-1bdb-4ca7-9b19-e173352892fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer">
+      <UniqueIdentifier>{9e5e1962-aea1-481d-b690-72b0e0ece8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\UI">
+      <UniqueIdentifier>{fa0ca708-fb71-44c2-bf74-6a291b3cdd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Key_Manager">
+      <UniqueIdentifier>{8a97017b-18ca-4a35-8ab4-dca2582fa3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\UI\01.StatusBar">
+      <UniqueIdentifier>{2cb138d6-9b82-4ff8-96f3-f071acc941cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\UI\02.HPBar">
+      <UniqueIdentifier>{b41ba219-8fd7-4f8b-ae36-0af2f870b0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\UI\03.MPBar">
+      <UniqueIdentifier>{f9224a37-ccc5-418d-a2a8-bfdee7cecfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill">
+      <UniqueIdentifier>{0e6dbf74-bc47-4272-85a8-96a6e1a222a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill\01.BoneSpear">
+      <UniqueIdentifier>{b47f148c-73b0-4652-bc6b-bc31091b98cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\UI\04.SkillWindow">
+      <UniqueIdentifier>{089b2525-fc4c-4c19-aa62-589487511172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster">
+      <UniqueIdentifier>{4ff8928b-eec2-420e-ad01-8382e240ec8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\01.Wraith">
+      <UniqueIdentifier>{17d5e41c-6d0e-4d09-8193-a0f0ab555ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\02.SK2">
+      <UniqueIdentifier>{774420af-0d76-4ede-9304-d621606b4732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\03.SK">
+      <UniqueIdentifier>{87d71e39-b2c4-47aa-a507-99b565c41ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\04.DIABLO">
+      <UniqueIdentifier>{b0cc741b-4243-4ee5-a478-5a5695388c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\05.DEMON">
+      <UniqueIdentifier>{6600eb20-8553-42de-9190-80b228b1ad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Bridge">
+      <UniqueIdentifier>{81ff619c-a168-47ab-8481-73b1d648feb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Bridge\EffectIMP">
+      <UniqueIdentifier>{8743c920-456b-477d-aa4c-b2c585e6e1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Bridge\EffectIMP\AnimationEffect_Implement">
+      <UniqueIdentifier>{f6f7db28-3adf-4209-8306-eeb6a12ce7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Bridge\EffectIMP\NonAnimationEffect_Implement">
+      <UniqueIdentifier>{4ffbf619-3313-4650-b656-9a132396932e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Bridge\Effect">
+      <UniqueIdentifier>{1e12a4af-c1ab-4f03-a240-fc0ecc6697d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Bridge\Effect\BuffEffect">
+      <UniqueIdentifier>{ac1b200a-f131-4f1c-aca7-8671eac6f570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Bridge\Effect\NormalEffect">
+      <UniqueIdentifier>{02869e23-f9e8-4d2b-9361-db6b3a38c47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.Collid_Manager">
+      <UniqueIdentifier>{66c928d7-b15a-4481-8306-58d2c65d107a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill\SkillEffect">
+      <UniqueIdentifier>{ed108d86-3bc5-42a2-9643-e00ad58f586f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill\SkillEffect\01.BoneSpearEffect">
+      <UniqueIdentifier>{0b24cc33-b789-4bc3-8137-8e1519d8c2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\02.SK2\SK2_Skill">
+      <UniqueIdentifier>{902b9592-5c80-43a5-b849-8249e30977c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill\SkillEffect\02.SK2SkillEffect">
+      <UniqueIdentifier>{280fea96-70ad-4a56-be72-462f83535bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\UI\05.StatWindow">
+      <UniqueIdentifier>{8025113a-8bb8-4210-b6e2-ae2018943ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\Loading">
+      <UniqueIdentifier>{afa561c3-e19f-4785-ad48-dc0365c764ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill\02.CorpseExplodeGuts">
+      <UniqueIdentifier>{919eddc9-9115-481d-a714-9bf6c2052f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill\03.PoisonNova">
+      <UniqueIdentifier>{1fb13c1d-edfb-4ca6-923a-1e08e1d11881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill\04.PoisonExplosion">
+      <UniqueIdentifier>{71c9c54f-083e-42e1-aab0-83ab1ee37a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\00.MonsterAttack">
+      <UniqueIdentifier>{d6177262-e23a-4fa0-8cc4-b9f5670e1d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\04.DIABLO\DiabloSkill">
+      <UniqueIdentifier>{f64933b5-e878-4e93-a407-013dc6e8faa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\04.DIABLO\DiabloSkill\01.FireSpread">
+      <UniqueIdentifier>{067178ad-8d59-47e7-a61f-6c64e2b42e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\04.DIABLO\DiabloSkill\02.Breath">
+      <UniqueIdentifier>{294d2267-0d2d-4fb4-9fdd-d0070f90b6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\03.Monster\04.DIABLO\DiabloSkill\03.GroundFire">
+      <UniqueIdentifier>{a938f786-7133-4f18-b510-82266d6204d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\StartMap">
+      <UniqueIdentifier>{e020bb99-493e-4bee-b6ef-b40d94354e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\Tile\StartTile">
+      <UniqueIdentifier>{029c87ba-0da3-4c3f-a59c-92bf0ad4a4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\MapObj\StartMapObj">
+      <UniqueIdentifier>{b654be31-9f3a-49e3-bad6-7e1841ca6ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\NPC">
+      <UniqueIdentifier>{261a7151-9f8e-4e3e-beb2-83d3bb0fc364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\UI\06.QuestWindow">
+      <UniqueIdentifier>{3e87c545-8319-43bf-9b0d-bbf87fb954ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\MapObj\Potal">
+      <UniqueIdentifier>{d4f78d86-78f4-4b20-af55-d9d15e6ff577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\02.Skill\05.BoneShield">
+      <UniqueIdentifier>{3444b924-9a43-4abc-a9d5-18a29acd3268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer\PlayerCreate">
+      <UniqueIdentifier>{6f259bd8-a4ec-444d-93a2-2deb7e244183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer\PlayerCreate\01.PlayerSK">
+      <UniqueIdentifier>{f7dd594d-1629-4d6e-a6d8-547421664e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer\PlayerCreate\02.PlayerSK2">
+      <UniqueIdentifier>{447f7f8d-465c-4c6d-acf0-5e122a2d0b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer\PlayerCreate\03.BloodGolem">
+      <UniqueIdentifier>{c8843298-c75f-4327-a514-f05c0681fcb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer\PlayerCreate\04.FireGolem">
+      <UniqueIdentifier>{67a7f0d8-da09-47d7-b18e-6dcdacd6b30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer\PlayerCreate\05.StoneGolem">
+      <UniqueIdentifier>{7b1af9ad-0cd2-42ee-90cb-7e2e0b182108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer\PlayerCreate\PlayerSummonAttack">
+      <UniqueIdentifier>{37546939-09aa-48ed-9400-0f3de0bd3ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Necromancer\PlayerCreate\02.PlayerSK2\PlayerSK2Attack">
+      <UniqueIdentifier>{0cbe2d92-4c85-4d6f-8253-8eb203cc1d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene\Menu">
+      <UniqueIdentifier>{256668d7-6f0b-4f4f-8f29-814293550402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Sound_Manager">
+      <UniqueIdentifier>{69cb2cde-9c65-48ee-8a8d-676fed1e818d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Diablo_II_Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Time_Manager.h">
+      <Filter>05.Time_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic_Device.h">
+      <Filter>97.Graphic_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Multi_Texture.h">
+      <Filter>02.Texture\Multi_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Single_Texture.h">
+      <Filter>02.Texture\Single_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Manager.h">
+      <Filter>02.Texture\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>02.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Manager.h">
+      <Filter>98.Frame_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>03.Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>03.Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Manager.h">
+      <Filter>01.Object\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>01.Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Scroll_Manager.h">
+      <Filter>04.Scroll_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObj.h">
+      <Filter>01.Object\MapObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Necromancer.h">
+      <Filter>01.Object\01.Necromancer</Filter>
+    </ClInclude>
+    <ClInclude Include="Key_Manager.h">
+      <Filter>06.Key_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStatusBar.h">
+      <Filter>01.Object\UI\01.StatusBar</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>01.Object\UI\02.HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MPBar.h">
+      <Filter>01.Object\UI\03.MPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneSpear.h">
+      <Filter>01.Object\02.Skill\01.BoneSpear</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillWindow.h">
+      <Filter>01.Object\UI\04.SkillWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Wraith.h">
+      <Filter>01.Object\03.Monster\01.Wraith</Filter>
+    </ClInclude>
+    <ClInclude Include="SK2.h">
+      <Filter>01.Object\03.Monster\02.SK2</Filter>
+    </ClInclude>
+    <ClInclude Include="SK.h">
+      <Filter>01.Object\03.Monster\03.SK</Filter>
+    </ClInclude>
+    <ClInclude Include="Diablo.h">
+      <Filter>01.Object\03.Monster\04.DIABLO</Filter>
+    </ClInclude>
+    <ClInclude Include="Demon.h">
+      <Filter>01.Object\03.Monster\05.DEMON</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_Implement.h">
+      <Filter>07.Bridge\EffectIMP</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationEffect_Implement.h">
+      <Filter>07.Bridge\EffectIMP\AnimationEffect_Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="NonAnimationEffect_Implement.h">
+      <Filter>07.Bridge\EffectIMP\NonAnimationEffect_Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>07.Bridge\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffEffect.h">
+      <Filter>07.Bridge\Effect\BuffEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalEffect.h">
+      <Filter>07.Bridge\Effect\NormalEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Collid_Manager.h">
+      <Filter>08.Collid_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneSpearEffect.h">
+      <Filter>01.Object\02.Skill\SkillEffect\01.BoneSpearEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SK2_Skill.h">
+      <Filter>01.Object\03.Monster\02.SK2\SK2_Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SK2SkillEffect.h">
+      <Filter>01.Object\02.Skill\SkillEffect\02.SK2SkillEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="StatWindow.h">
+      <Filter>01.Object\UI\05.StatWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>03.Scene\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="CorpseExplodeGuts.h">
+      <Filter>01.Object\02.Skill\02.CorpseExplodeGuts</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonNova.h">
+      <Filter>01.Object\02.Skill\03.PoisonNova</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonExplosion.h">
+      <Filter>01.Object\02.Skill\04.PoisonExplosion</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAttack.h">
+      <Filter>01.Object\03.Monster\00.MonsterAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="FireSpread.h">
+      <Filter>01.Object\03.Monster\04.DIABLO\DiabloSkill\01.FireSpread</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMap.h">
+      <Filter>03.Scene\StartMap</Filter>
+    </ClInclude>
+    <ClInclude Include="StartTile.h">
+      <Filter>01.Object\Tile\StartTile</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMapObj.h">
+      <Filter>01.Object\MapObj\StartMapObj</Filter>
+    </ClInclude>
+    <ClInclude Include="HarryCain.h">
+      <Filter>01.Object\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestWindow.h">
+      <Filter>01.Object\UI\06.QuestWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Potal.h">
+      <Filter>01.Object\MapObj\Potal</Filter>
+    </ClInclude>
+    <ClInclude Include="Breath.h">
+      <Filter>01.Object\03.Monster\04.DIABLO\DiabloSkill\02.Breath</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneShield.h">
+      <Filter>01.Object\02.Skill\05.BoneShield</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundFire.h">
+      <Filter>01.Object\03.Monster\04.DIABLO\DiabloSkill\03.GroundFire</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSK.h">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\01.PlayerSK</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSK2.h">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\02.PlayerSK2</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodGolem.h">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\03.BloodGolem</Filter>
+    </ClInclude>
+    <ClInclude Include="FireGolem.h">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\04.FireGolem</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneGolem.h">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\05.StoneGolem</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSK2Attack.h">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\02.PlayerSK2\PlayerSK2Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSummonAttack.h">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\PlayerSummonAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="DiabloMenu.h">
+      <Filter>03.Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>09.Sound_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Time_Manager.cpp">
+      <Filter>05.Time_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Diablo_II_Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic_Device.cpp">
+      <Filter>97.Graphic_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi_Texture.cpp">
+      <Filter>02.Texture\Multi_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Single_Texture.cpp">
+      <Filter>02.Texture\Single_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Manager.cpp">
+      <Filter>02.Texture\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>02.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Manager.cpp">
+      <Filter>98.Frame_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>03.Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>03.Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Manager.cpp">
+      <Filter>01.Object\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>01.Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroll_Manager.cpp">
+      <Filter>04.Scroll_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObj.cpp">
+      <Filter>01.Object\MapObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Necromancer.cpp">
+      <Filter>01.Object\01.Necromancer</Filter>
+    </ClCompile>
+    <ClCompile Include="Key_Manager.cpp">
+      <Filter>06.Key_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStatusBar.cpp">
+      <Filter>01.Object\UI\01.StatusBar</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>01.Object\UI\02.HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="MPBar.cpp">
+      <Filter>01.Object\UI\03.MPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneSpear.cpp">
+      <Filter>01.Object\02.Skill\01.BoneSpear</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillWindow.cpp">
+      <Filter>01.Object\UI\04.SkillWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Wraith.cpp">
+      <Filter>01.Object\03.Monster\01.Wraith</Filter>
+    </ClCompile>
+    <ClCompile Include="SK2.cpp">
+      <Filter>01.Object\03.Monster\02.SK2</Filter>
+    </ClCompile>
+    <ClCompile Include="SK.cpp">
+      <Filter>01.Object\03.Monster\03.SK</Filter>
+    </ClCompile>
+    <ClCompile Include="Diablo.cpp">
+      <Filter>01.Object\03.Monster\04.DIABLO</Filter>
+    </ClCompile>
+    <ClCompile Include="Demon.cpp">
+      <Filter>01.Object\03.Monster\05.DEMON</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_Implement.cpp">
+      <Filter>07.Bridge\EffectIMP</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationEffect_Implement.cpp">
+      <Filter>07.Bridge\EffectIMP\AnimationEffect_Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="NonAnimationEffect_Implement.cpp">
+      <Filter>07.Bridge\EffectIMP\NonAnimationEffect_Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>07.Bridge\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffEffect.cpp">
+      <Filter>07.Bridge\Effect\BuffEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalEffect.cpp">
+      <Filter>07.Bridge\Effect\NormalEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Collid_Manager.cpp">
+      <Filter>08.Collid_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneSpearEffect.cpp">
+      <Filter>01.Object\02.Skill\SkillEffect\01.BoneSpearEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SK2_Skill.cpp">
+      <Filter>01.Object\03.Monster\02.SK2\SK2_Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SK2SkillEffect.cpp">
+      <Filter>01.Object\02.Skill\SkillEffect\02.SK2SkillEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="StatWindow.cpp">
+      <Filter>01.Object\UI\05.StatWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>03.Scene\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="CorpseExplodeGuts.cpp">
+      <Filter>01.Object\02.Skill\02.CorpseExplodeGuts</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonNova.cpp">
+      <Filter>01.Object\02.Skill\03.PoisonNova</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonExplosion.cpp">
+      <Filter>01.Object\02.Skill\04.PoisonExplosion</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAttack.cpp">
+      <Filter>01.Object\03.Monster\00.MonsterAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="FireSpread.cpp">
+      <Filter>01.Object\03.Monster\04.DIABLO\DiabloSkill\01.FireSpread</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMap.cpp">
+      <Filter>03.Scene\StartMap</Filter>
+    </ClCompile>
+    <ClCompile Include="StartTile.cpp">
+      <Filter>01.Object\Tile\StartTile</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMapObj.cpp">
+      <Filter>01.Object\MapObj\StartMapObj</Filter>
+    </ClCompile>
+    <ClCompile Include="HarryCain.cpp">
+      <Filter>01.Object\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestWindow.cpp">
+      <Filter>01.Object\UI\06.QuestWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Potal.cpp">
+      <Filter>01.Object\MapObj\Potal</Filter>
+    </ClCompile>
+    <ClCompile Include="Breath.cpp">
+      <Filter>01.Object\03.Monster\04.DIABLO\DiabloSkill\02.Breath</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneShield.cpp">
+      <Filter>01.Object\02.Skill\05.BoneShield</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundFire.cpp">
+      <Filter>01.Object\03.Monster\04.DIABLO\DiabloSkill\03.GroundFire</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSK.cpp">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\01.PlayerSK</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSK2.cpp">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\02.PlayerSK2</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodGolem.cpp">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\03.BloodGolem</Filter>
+    </ClCompile>
+    <ClCompile Include="FireGolem.cpp">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\04.FireGolem</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneGolem.cpp">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\05.StoneGolem</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSK2Attack.cpp">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\02.PlayerSK2\PlayerSK2Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSummonAttack.cpp">
+      <Filter>01.Object\01.Necromancer\PlayerCreate\PlayerSummonAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="DiabloMenu.cpp">
+      <Filter>03.Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>09.Sound_Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Diablo_II_Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Diablo_II_Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

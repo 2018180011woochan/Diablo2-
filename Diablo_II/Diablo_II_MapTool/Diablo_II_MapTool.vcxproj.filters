@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.View">
+      <UniqueIdentifier>{d6891154-d55b-4b5f-987b-808d1306d449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Graphic_Device">
+      <UniqueIdentifier>{fdcbcd83-333d-4adb-94b7-23ecba307aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Document">
+      <UniqueIdentifier>{e43d4110-970b-4c9c-ad6a-9067e5ebaec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.MainFrame">
+      <UniqueIdentifier>{863a4961-7583-4d72-a407-0948f6613daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{6d913a75-fce3-4a48-a98e-687551e24958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileInfo">
+      <UniqueIdentifier>{c46363cd-1af1-49c9-ac68-410d6d210685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{bf834ac9-fc48-4537-8579-d37e50d7b263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{94ff7eb3-fe26-47e9-9072-975b6ce973d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\Manager">
+      <UniqueIdentifier>{45ee0d25-9551-4ca8-8492-735e9713eae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\Multi_Texture">
+      <UniqueIdentifier>{2ff39fd9-b561-4530-aff1-3536630949a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\Single_Texture">
+      <UniqueIdentifier>{9f749638-14c7-434e-8bb0-81c0e2c1bbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\Form">
+      <UniqueIdentifier>{0011a8cc-80a4-4819-9d9a-9c7950dba5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\MiniView">
+      <UniqueIdentifier>{b94dc66e-5ed8-44ec-a479-4b9b3b8b22dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\Form\MapTool">
+      <UniqueIdentifier>{e7129247-3368-40d1-a431-73865604babf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\Form\UnitTool">
+      <UniqueIdentifier>{74af7b58-41d7-4a8a-b714-c8a8ebfd5edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{849daa78-2d2d-4ffa-9be9-5355d2939cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\Form\ExtractionPath">
+      <UniqueIdentifier>{2da59768-cc2f-42b6-8ef8-c4ca87f97d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\Form\MonsterTool">
+      <UniqueIdentifier>{d63e9442-7376-4c17-a548-9d84132bbcb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{1fae5f71-e02a-408b-bb4a-2ea515a69735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StartTerrain">
+      <UniqueIdentifier>{3ca79d82-2ef5-4c8c-9908-912c2eb33606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StartObj">
+      <UniqueIdentifier>{6a6af6ee-bfc7-4039-9d14-73e51988ae88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Diablo_II_MapToolView.h">
+      <Filter>00.View</Filter>
+    </ClInclude>
+    <ClInclude Include="Diablo_II_MapToolDoc.h">
+      <Filter>97.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>98.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Diablo_II_MapTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic_Device.h">
+      <Filter>01.Graphic_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>00.View\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>00.View\Form\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>00.View\Form\UnitTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>00.View\MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Single_Texture.h">
+      <Filter>Texture\Single_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Multi_Texture.h">
+      <Filter>Texture\Multi_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Manager.h">
+      <Filter>Texture\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractionPath.h">
+      <Filter>00.View\Form\ExtractionPath</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTool.h">
+      <Filter>00.View\Form\MonsterTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="StartTerrain.h">
+      <Filter>StartTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="StartObj.h">
+      <Filter>StartObj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Diablo_II_MapToolView.cpp">
+      <Filter>00.View</Filter>
+    </ClCompile>
+    <ClCompile Include="Diablo_II_MapToolDoc.cpp">
+      <Filter>97.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>98.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Diablo_II_MapTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic_Device.cpp">
+      <Filter>01.Graphic_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>00.View\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>00.View\Form\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>00.View\Form\UnitTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>00.View\MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Single_Texture.cpp">
+      <Filter>Texture\Single_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi_Texture.cpp">
+      <Filter>Texture\Multi_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Manager.cpp">
+      <Filter>Texture\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractionPath.cpp">
+      <Filter>00.View\Form\ExtractionPath</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterTool.cpp">
+      <Filter>00.View\Form\MonsterTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="StartTerrain.cpp">
+      <Filter>StartTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="StartObj.cpp">
+      <Filter>StartObj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Diablo_II_MapTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Diablo_II_MapToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Diablo_II_MapTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Diablo_II_MapTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

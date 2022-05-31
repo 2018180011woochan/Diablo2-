@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Diablo_II_MapTool", "Diablo_II_MapTool\Diablo_II_MapTool.vcxproj", "{02AF1DCE-1D8A-47E2-A63D-912763F5974C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Diablo_II_Client", "Diablo_II_Client\Diablo_II_Client.vcxproj", "{2DDB82A9-E2EC-47DE-8210-B581D159D139}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{98F2136D-0E5C-4BEB-8A71-E2981B67C242}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\Define.h = Headers\Define.h
+		Headers\Enum.h = Headers\Enum.h
+		Headers\Extern.h = Headers\Extern.h
+		Headers\Function.h = Headers\Function.h
+		Headers\Headers.h = Headers\Headers.h
+		Headers\Struct.h = Headers\Struct.h
+		Headers\Typedef.h = Headers\Typedef.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02AF1DCE-1D8A-47E2-A63D-912763F5974C}.Debug|x64.ActiveCfg = Debug|x64
+		{02AF1DCE-1D8A-47E2-A63D-912763F5974C}.Debug|x64.Build.0 = Debug|x64
+		{02AF1DCE-1D8A-47E2-A63D-912763F5974C}.Debug|x86.ActiveCfg = Debug|Win32
+		{02AF1DCE-1D8A-47E2-A63D-912763F5974C}.Debug|x86.Build.0 = Debug|Win32
+		{02AF1DCE-1D8A-47E2-A63D-912763F5974C}.Release|x64.ActiveCfg = Release|x64
+		{02AF1DCE-1D8A-47E2-A63D-912763F5974C}.Release|x64.Build.0 = Release|x64
+		{02AF1DCE-1D8A-47E2-A63D-912763F5974C}.Release|x86.ActiveCfg = Release|Win32
+		{02AF1DCE-1D8A-47E2-A63D-912763F5974C}.Release|x86.Build.0 = Release|Win32
+		{2DDB82A9-E2EC-47DE-8210-B581D159D139}.Debug|x64.ActiveCfg = Debug|x64
+		{2DDB82A9-E2EC-47DE-8210-B581D159D139}.Debug|x64.Build.0 = Debug|x64
+		{2DDB82A9-E2EC-47DE-8210-B581D159D139}.Debug|x86.ActiveCfg = Debug|Win32
+		{2DDB82A9-E2EC-47DE-8210-B581D159D139}.Debug|x86.Build.0 = Debug|Win32
+		{2DDB82A9-E2EC-47DE-8210-B581D159D139}.Release|x64.ActiveCfg = Release|x64
+		{2DDB82A9-E2EC-47DE-8210-B581D159D139}.Release|x64.Build.0 = Release|x64
+		{2DDB82A9-E2EC-47DE-8210-B581D159D139}.Release|x86.ActiveCfg = Release|Win32
+		{2DDB82A9-E2EC-47DE-8210-B581D159D139}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
